@@ -2,6 +2,8 @@
 ## functions do
 
 ## Write a short comment describing this function
+## This is the first function tha set the paramaters about the cache
+## If the inverse of the matrix have already been decleared, then the function stores its value
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
@@ -19,6 +21,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
+## That function actually calculates the inverse of the function calling the 'solve' function
 
 cacheSolve <- function(x, ...) {
    ## Return a matrix that is the inverse of 'x'
